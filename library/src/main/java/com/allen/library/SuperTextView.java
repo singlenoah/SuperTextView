@@ -19,7 +19,6 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
-import android.widget.Switch;
 
 import com.allen.library.helper.ShapeBuilder;
 
@@ -52,7 +51,7 @@ public class SuperTextView extends RelativeLayout {
 
 
     private int defaultColor = 0xFF373737;//文字默认颜色
-    private int defaultSize = 15;//默认字体大小
+    private int defaultSize = 14;//默认字体大小
     private int defaultMaxEms = 0;
     private int defaultMaxLines = 0;
 
