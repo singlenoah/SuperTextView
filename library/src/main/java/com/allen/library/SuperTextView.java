@@ -211,8 +211,8 @@ public class SuperTextView extends RelativeLayout {
     private int mRightViewMarginLeft;
     private int mRightViewMarginRight;
 
-    private boolean useRipple;
-    private Drawable mBackground_drawable;
+    private boolean useRipple = true;
+    private Drawable mBackground_drawable ;
 
     private OnSuperTextViewClickListener superTextViewClickListener;
 
